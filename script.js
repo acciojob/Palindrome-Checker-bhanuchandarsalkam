@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-let i=0,j=str.length;
+let i=0,j=str.length-1;
 	while(i<str.length&&j>=0){
 		if(str[i]!=str[j]){
 			return false;
